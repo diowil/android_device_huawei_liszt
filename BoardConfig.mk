@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/huawei/grace
+LOCAL_PATH := device/huawei/liszt
 
 # Architecture
 TARGET_ARCH := arm64
@@ -41,7 +41,7 @@ ARCH_ARM_HAVE_NEON := true
 ARCH_ARM_HIGH_OPTIMIZATION := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hi3635,grace
+TARGET_OTA_ASSERT_DEVICE := hi3635,liszt
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -96,7 +96,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_SOURCE := kernel/huawei/grace
+TARGET_KERNEL_SOURCE := kernel/huawei/liszt
 TARGET_KERNEL_CONFIG := grace_defconfig
 
 # Lights
@@ -125,7 +125,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.hi3635
 
 # RIL
 TARGET_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
-BOARD_RIL_CLASS := ../../../device/huawei/grace/ril
+BOARD_RIL_CLASS := ../../../device/huawei/liszt/ril
 PROTOBUF_SUPPORTED := true
 
 # Sepolicy
