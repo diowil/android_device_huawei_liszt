@@ -1,1 +1,1 @@
-# android_device_huawei_hwliszt
+# android_device_huawei_liszt
