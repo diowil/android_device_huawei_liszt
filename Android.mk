@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), grace)
+ifeq ($(TARGET_DEVICE), liszt)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
