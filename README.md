@@ -1,1 +1,1 @@
-# android_device_huawei_grace
+# android_device_huawei_hwliszt
