@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from grace device
-$(call inherit-product, device/huawei/grace/device.mk)
+$(call inherit-product, device/huawei/hwliszt/device.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -30,11 +30,11 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
-PRODUCT_NAME := lineage_grace
-PRODUCT_DEVICE := grace
+PRODUCT_NAME := lineage_liszt
+PRODUCT_DEVICE := liszt
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HUAWEI-P8
+PRODUCT_MODEL := HUAWEI-M2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="HUAWEI/GRA-L09/HWGRA:6.0/HUAWEIGRA-L09/C109B379:user/release-keys" \
