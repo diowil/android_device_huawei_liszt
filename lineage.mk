@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from grace device
-$(call inherit-product, device/huawei/hwliszt/device.mk)
+$(call inherit-product, device/huawei/liszt/device.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
