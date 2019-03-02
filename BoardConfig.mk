@@ -130,7 +130,7 @@ PROTOBUF_SUPPORTED := true
 
 # Sepolicy
 BOARD_SEPOLICY_DIRS += \
-	device/huawei/grace/sepolicy
+	device/huawei/liszt/sepolicy
 
 # Wifi
 TARGET_USES_64_BIT_BCMDHD	 := true
@@ -148,4 +148,4 @@ WIFI_DRIVER_FW_PATH_P2P          := "/vendor/firmware/fw_bcm4334_hw.bin"
 WIFI_BAND                        := 802_11_ABG
 
 # inherit from the proprietary version
--include vendor/huawei/grace/BoardConfigVendor.mk
+-include vendor/huawei/liszt/BoardConfigVendor.mk
